@@ -3,6 +3,5 @@ module "s3-bucket" {
   version = "2.8.0"
   # insert required variables here
   
-  bucket = "my-s3-bucket"
-  bucket_prefix = var.prefix
+  bucket = var.prefix
 }
